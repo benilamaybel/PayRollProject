@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="12" total="21" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-06T21:17:32 IST" name="PayrollProject" finished-at="2023-11-06T21:20:58 IST" duration-ms="205714">
+    <groups>
+      <group name="Smoke">
+        <method signature="ClientTestCases.createClient()[pri:0, instance:testCases.ClientTestCases@5e2c3d18]" name="createClient" class="testCases.ClientTestCases"/>
+        <method signature="LoginTestCase.verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@3b0fe47a]" name="verifyValidLogin" class="testCases.LoginTestCase"/>
+        <method signature="TimeSheetTestCases.createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@273444fe]" name="createTimeSheetFromFile" class="testCases.TimeSheetTestCases"/>
+        <method signature="WorkersTestCases.searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@16eb3ea3]" name="searchAndEditWorker" class="testCases.WorkersTestCases"/>
+        <method signature="ClientTestCases.createClient()[pri:0, instance:testCases.ClientTestCases@6c4906d3]" name="createClient" class="testCases.ClientTestCases"/>
+        <method signature="LoginTestCase.verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@4bdeaabb]" name="verifyValidLogin" class="testCases.LoginTestCase"/>
+        <method signature="TimeSheetTestCases.createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@71075444]" name="createTimeSheetFromFile" class="testCases.TimeSheetTestCases"/>
+        <method signature="WorkersTestCases.searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@65987993]" name="searchAndEditWorker" class="testCases.WorkersTestCases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-06T21:17:32 IST" name="ChromeTest" finished-at="2023-11-06T21:20:11 IST" duration-ms="158497">
+      <class name="testCases.TimeSheetTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.TimeSheetTestCases@273444fe]" started-at="2023-11-06T21:19:34 IST" name="beforeMethod" finished-at="2023-11-06T21:19:43 IST" duration-ms="9148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@273444fe]" started-at="2023-11-06T21:19:43 IST" name="createTimeSheetFromFile" finished-at="2023-11-06T21:20:10 IST" duration-ms="26682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTimeSheetFromFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TimeSheetTestCases@273444fe]" started-at="2023-11-06T21:20:10 IST" name="afterMethod" finished-at="2023-11-06T21:20:11 IST" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTimeSheetFromFile status=SUCCESS method=TimeSheetTestCases.createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@273444fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TimeSheetTestCases -->
+      <class name="testCases.ClientTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCases@5e2c3d18]" started-at="2023-11-06T21:18:05 IST" name="beforeMethod" finished-at="2023-11-06T21:18:13 IST" duration-ms="7944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createClient()[pri:0, instance:testCases.ClientTestCases@5e2c3d18]" started-at="2023-11-06T21:18:13 IST" name="createClient" finished-at="2023-11-06T21:18:46 IST" duration-ms="32362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createClient -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCases@5e2c3d18]" started-at="2023-11-06T21:18:46 IST" name="afterMethod" finished-at="2023-11-06T21:18:47 IST" duration-ms="1616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createClient status=SUCCESS method=ClientTestCases.createClient()[pri:0, instance:testCases.ClientTestCases@5e2c3d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ClientTestCases -->
+      <class name="testCases.LoginTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginTestCase@3b0fe47a]" started-at="2023-11-06T21:17:33 IST" name="beforeMethod" finished-at="2023-11-06T21:17:57 IST" duration-ms="23148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@3b0fe47a]" started-at="2023-11-06T21:17:57 IST" name="verifyValidLogin" finished-at="2023-11-06T21:18:05 IST" duration-ms="8225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestCase@3b0fe47a]" started-at="2023-11-06T21:18:05 IST" name="afterMethod" finished-at="2023-11-06T21:18:05 IST" duration-ms="491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTestCase.verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@3b0fe47a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginTestCase -->
+      <class name="testCases.WorkersTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.WorkersTestCases@16eb3ea3]" started-at="2023-11-06T21:18:47 IST" name="beforeMethod" finished-at="2023-11-06T21:19:03 IST" duration-ms="15350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@16eb3ea3]" started-at="2023-11-06T21:19:03 IST" name="searchAndEditWorker" finished-at="2023-11-06T21:19:33 IST" duration-ms="30599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndEditWorker -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.WorkersTestCases@16eb3ea3]" started-at="2023-11-06T21:19:33 IST" name="afterMethod" finished-at="2023-11-06T21:19:34 IST" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndEditWorker status=SUCCESS method=WorkersTestCases.searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@16eb3ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.WorkersTestCases -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-11-06T21:17:32 IST" name="EdgeTest" finished-at="2023-11-06T21:20:58 IST" duration-ms="205714">
+      <class name="testCases.TimeSheetTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.TimeSheetTestCases@71075444]" started-at="2023-11-06T21:20:23 IST" name="beforeMethod" finished-at="2023-11-06T21:20:36 IST" duration-ms="13202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@71075444]" started-at="2023-11-06T21:20:36 IST" name="createTimeSheetFromFile" finished-at="2023-11-06T21:20:57 IST" duration-ms="21451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTimeSheetFromFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TimeSheetTestCases@71075444]" started-at="2023-11-06T21:20:57 IST" name="afterMethod" finished-at="2023-11-06T21:20:58 IST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTimeSheetFromFile status=SUCCESS method=TimeSheetTestCases.createTimeSheetFromFile()[pri:0, instance:testCases.TimeSheetTestCases@71075444] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TimeSheetTestCases -->
+      <class name="testCases.ClientTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCases@6c4906d3]" started-at="2023-11-06T21:18:11 IST" name="beforeMethod" finished-at="2023-11-06T21:18:25 IST" duration-ms="14342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createClient()[pri:0, instance:testCases.ClientTestCases@6c4906d3]" started-at="2023-11-06T21:18:25 IST" name="createClient" finished-at="2023-11-06T21:19:02 IST" duration-ms="37037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createClient -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCases@6c4906d3]" started-at="2023-11-06T21:19:02 IST" name="afterMethod" finished-at="2023-11-06T21:19:04 IST" duration-ms="2148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createClient status=SUCCESS method=ClientTestCases.createClient()[pri:0, instance:testCases.ClientTestCases@6c4906d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ClientTestCases -->
+      <class name="testCases.LoginTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginTestCase@4bdeaabb]" started-at="2023-11-06T21:17:33 IST" name="beforeMethod" finished-at="2023-11-06T21:17:59 IST" duration-ms="25157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@4bdeaabb]" started-at="2023-11-06T21:17:59 IST" name="verifyValidLogin" finished-at="2023-11-06T21:18:09 IST" duration-ms="10853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestCase@4bdeaabb]" started-at="2023-11-06T21:18:09 IST" name="afterMethod" finished-at="2023-11-06T21:18:11 IST" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTestCase.verifyValidLogin()[pri:0, instance:testCases.LoginTestCase@4bdeaabb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginTestCase -->
+      <class name="testCases.WorkersTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:19:04 IST" name="beforeMethod" finished-at="2023-11-06T21:19:18 IST" duration-ms="14234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:19:18 IST" name="searchAndEditWorker" finished-at="2023-11-06T21:19:47 IST" duration-ms="28732" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element ([[EdgeDriver: msedge on windows (22a96188e7b23c16e049f1bca7f45575)] -> xpath: //table[@class='table table-striped table-bordered']//tbody//tr[1]//td[1]]) to become stale (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.44, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51478}, msedge: {msedgedriverVersion: 119.0.2151.44 (44557a29097a..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51478/devtoo..., se:cdpVersion: 119.0.2151.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a96188e7b23c16e049f1bca7f45575]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element ([[EdgeDriver: msedge on windows (22a96188e7b23c16e049f1bca7f45575)] -> xpath: //table[@class='table table-striped table-bordered']//tbody//tr[1]//td[1]]) to become stale (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.44, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51478}, msedge: {msedgedriverVersion: 119.0.2151.44 (44557a29097a..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51478/devtoo..., se:cdpVersion: 119.0.2151.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a96188e7b23c16e049f1bca7f45575
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at utilities.WaitUtilities.waitForStaleElement(WaitUtilities.java:31)
+at utilities.GeneralUtilities.findTableElement(GeneralUtilities.java:135)
+at elementRepository.Workers.searchWorker(Workers.java:43)
+at testCases.WorkersTestCases.searchAndEditWorker(WorkersTestCases.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndEditWorker -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:19:47 IST" name="afterMethod" finished-at="2023-11-06T21:19:48 IST" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndEditWorker status=SKIP method=WorkersTestCases.searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@65987993] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:19:48 IST" name="beforeMethod" finished-at="2023-11-06T21:20:02 IST" duration-ms="13718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:20:02 IST" name="searchAndEditWorker" finished-at="2023-11-06T21:20:22 IST" duration-ms="20427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndEditWorker -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.WorkersTestCases@65987993]" started-at="2023-11-06T21:20:22 IST" name="afterMethod" finished-at="2023-11-06T21:20:23 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndEditWorker status=SUCCESS method=WorkersTestCases.searchAndEditWorker()[pri:0, instance:testCases.WorkersTestCases@65987993] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.WorkersTestCases -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- PayrollProject -->
+</testng-results>
