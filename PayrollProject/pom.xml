@@ -22,7 +22,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>ExternetReport.xml</suiteXmlFile>
+						<suiteXmlFile>CrossBrowser.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
